@@ -103,7 +103,7 @@ const antiviewonce = process.env.ANTIVIEWONCE || 'TRUE';
 const video = await fs.readFileSync('./menu.mp4');
 const pict = await fs.readFileSync('./dreaded.jpg');
 const mode = process.env.MODE || 'PUBLIC';
-const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const author = process.env.STICKER_AUTHOR || 'Tonje';
     const prefix = process.env.PREFIX || '.';
 const mycode = process.env.COUNTRY_CODE || '254';
     const cmd = commandNam.some(name => body.includes(name)) && body.startsWith(prefix);
@@ -113,17 +113,17 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+    const packname = process.env.STICKER_PACKNAME || 'TonS❤️';
+const dev = process.env.DEV || '254113069954'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+const botname = process.env.BOTNAME || "𝚃𝙾𝙽𝙹𝙴-𝙱𝙾𝚃";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
 const antibot = process.env.ANTIBOT || 'FALSE';
-const antitag = process.env.ANTITAG || 'FALSE';
+const antitag = process.env.ANTITAG || 'TRUE';
 const antilink = process.env.ANTILINK || 'TRUE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
@@ -194,9 +194,9 @@ const audiovn = "./alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "Hi human, I am Alive",
-          body: "DREADED BOT",
-          thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
+          title: "Hi human, I am Alive, 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚃𝚘𝚗𝚓𝚎🐹",
+          body: "𝚃𝙾𝙽𝙹𝙴-𝙱𝙾𝚃",
+          thumbnailUrl: "https://telegra.ph/file/ecdc305a83dfdb40403d5.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -559,7 +559,7 @@ await reply(String(err));
 
 
    if (budy.startsWith(';')) { 
-   if (!Owner) return reply `Only Owner allowed to evaluate part of the bot codes` 
+   if (!Owner) return reply `Only 𝚃𝚘𝚗𝚓𝚎🐹 is allowed to evaluate part of the bot codes` 
    function Return(sul) { 
  sat = JSON.stringify(sul, null, 2) 
  bang = util.format(sat) 
