@@ -1,5 +1,5 @@
 {
-  "name": "DREADED BOT",
+  "name": "𝚃𝙾𝙽𝙹𝙴-𝙱𝙾𝚃",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI#readme",
   "repository": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI.git",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "logo": "https://telegra.ph/file/ecdc305a83dfdb40403d5.jpg",
   "success_url": "/",
   "env": {
        "PREFIX":
